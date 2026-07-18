@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" role="img" aria-label="Long Story Short LLC">
+  <defs>
+    <linearGradient id="lss-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E85D04"/>
+      <stop offset="55%" stop-color="#BB3E03"/>
+      <stop offset="100%" stop-color="#9B2226"/>
+    </linearGradient>
+  </defs>
+  <!-- Mark: open-book mark with short-story spark -->
+  <g transform="translate(2, 6)">
+    <rect x="0" y="4" width="34" height="28" rx="8" fill="url(#lss-grad)"/>
+    <path d="M10 12h14M10 18h10M10 24h12" stroke="#FFF8F0" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="28" cy="10" r="5.5" fill="#FFF8F0"/>
+    <path d="M28 7.2v5.6M25.2 10h5.6" stroke="#E85D04" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <!-- Wordmark -->
+  <g fill="#1A1210" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+    <text x="48" y="22" font-size="16" font-weight="700" letter-spacing="-0.02em">Long Story Short</text>
+    <text x="48" y="38" font-size="11" font-weight="600" letter-spacing="0.14em" fill="#BB3E03">LLC</text>
+  </g>
+</svg>
